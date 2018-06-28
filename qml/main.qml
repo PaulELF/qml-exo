@@ -10,6 +10,7 @@ ApplicationWindow {
 
     title: "Hello World"
 
+
     Item {
         anchors.fill: parent
         ColumnLayout {
@@ -17,8 +18,8 @@ ApplicationWindow {
 
             ComboBox {
                 id: combo
-                model: ["exo1", "exo2", "exo3", "exo4"]
-                currentIndex: 3
+                model: ["exo1", "exo2", "exo3", "exo4", "exo5"]
+                currentIndex: 4
             }
 
             Loader {
@@ -30,4 +31,5 @@ ApplicationWindow {
         }
 
     }
+
 }
